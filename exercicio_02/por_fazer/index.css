@@ -1,0 +1,36 @@
+body {
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
+
+h1 {
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: "Arial", sans-serif;
+} 
+
+.contribuicoes{
+    position: relative;
+    left: 1.5cm;
+}
+
+.projetos{
+    position: relative;
+    left: 1.5cm;
+}
+
+.leader{
+    position: relative;
+    top: -12cm;
+    left: -1cm;
+    float: right;
+}
+
+p {
+    text-align: justify;
+    font-family: "Times New Roman", serif;
+}
