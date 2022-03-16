@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.profile{
+    position: relative;
+    display: block;
+    left: 8cm;
+    padding-top: 5%;
+}
+
+.perfil{
+    position: absolute;
+    left: -1cm;
+    top: 3cm;
+
+    width: 3.6cm;
+    height: 3.6cm;
+
+    border-radius: 50cm;
+}
+
+.user{
+    position: absolute;
+    display: inline;
+    font-family: 'Quicksand', sans-serif; 
+    text-align: center;
+    
+    font-weight: 100;
+    font-size: 190%;
+    left: 6cm;
+    color: black;
+}
+
+.botoes, .lip{
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}
+
+.botoes{
+    position: absolute;
+    display: inline;
+    left: 11cm;
+    top: 2.15cm;
+}
+
+.botao {
+    background-color: dodgerblue;
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 0.1cm;
+    border-color: gainsboro;
+}
+
+.botaoInterno{
+    background-color: dodgerblue;
+    border-style: hidden;
+    color: white;
+}
+
+.infoPag, .info{
+    display: inline;
+    float: right;
+    padding-right: 1.2cm;
+}
+
+.infoPag{
+    position: absolute;
+    display: inline;
+    left: 5cm;
+    top: 3.8cm;
+}
+
+.info{
+    font-family: 'Hubballi', cursive;
+    font-size: 120%;
+}
+
+.nome{
+    font-family: 'Hubballi', cursive; ;
+    font-size: 110%;
+}
+
+.descricoes{
+    font-family: 'Hubballi', cursive;
+    font-size: 120%;
+
+    position: absolute;
+    display: inline;
+    left: 6cm;
+    top: 5.1cm;
+}
+
+.desc {
+    position: absolute;
+    bottom: -1.8cm;
+}
+
+.segcomum{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+
+    position: absolute;
+    left: 6cm;
+    top: 7.8cm;
+}
+
+.linha{
+    position: relative;
+    top: 8cm;
+    width: 24cm;
+    right: 8.5cm;
+    border-color: gainsboro;
+}

@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-shadow: 0px 1px 0px 0px gainsboro;
+}
+
+.instagram{
+    position: relative;
+    bottom: -14px;
+}
+
+.input{
+    position: absolute;
+    right: 50%;
+    bottom: 30%;
+}
+
+.icones, .lih{
+    display: inline;
+    float: right;
+    padding-right: 27px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+}
