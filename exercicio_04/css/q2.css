@@ -1,0 +1,19 @@
+header{
+    padding: 5%;
+    background-color: lavender;
+}
+
+.container {
+    text-align: justify;
+}
+
+.card{
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 0px;
+}
+
+footer{
+    padding-left: 5%;
+    padding-right: 5%;
+}

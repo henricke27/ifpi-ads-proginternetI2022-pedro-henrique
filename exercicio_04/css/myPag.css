@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+}
+
+.conteiner{
+    margin: 10%;
+}
+
+header{
+    border-bottom: 1px black solid;
+    background-color: lightgray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+nav{
+    float: right;
+    height: 15cm;
+    width: 3cm;
+    background-color: darkkhaki;
+    margin-left: 1cm;
+}
+
+nav ul{
+   padding-top: 5cm; 
+}
+
+main{
+    text-align: justify;
+    height: 10cm;
+    padding: 5%;
+}
+
+article{
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+footer{
+    clear: both;
+    border-top: 1px black solid;
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}

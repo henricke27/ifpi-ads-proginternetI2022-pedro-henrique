@@ -1,0 +1,28 @@
+header {
+    padding-left: 0.5%;
+    padding-bottom: 3%;
+    background-color: rgb(171, 189, 136);
+}
+
+main{
+    padding-left: 1%;
+}
+
+aside{
+    background-color: rgb(233, 255, 194);
+}
+
+nav {
+    background-color: rgb(207, 228, 171);
+}
+
+nav ul li {
+    color: rgb(74, 94, 35);
+}
+
+footer{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: rgb(171, 189, 136);
+    text-align: center;
+}
