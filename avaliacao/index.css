@@ -1,0 +1,289 @@
+#paleta {
+    color: #1f0310;
+    color: #442433;
+    color: #a3d95b;
+    color: #aae3ab;
+    color: #f6f0bc;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a3d95b;
+    padding: 0.5cm;
+    flex-wrap: wrap;
+}
+
+.links a{
+    padding: 0.5cm;
+}
+
+.links ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links ul li{
+    margin-left: 1.5cm;
+}
+
+.icone-link {
+    width: 25px;
+    height: 25px;
+}
+
+.icone-link img{
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    padding: 15px 0 15px 0;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    margin: 10px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: gray;
+    height: 10cm;
+}
+
+.main-home {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.destaques {
+    background-color: #f6f0bc;
+}
+
+.lista-destaques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+    width: 120px;
+    height: 120px;
+}
+
+.card-destaque .imagem-destaque{
+    width: 64px;
+    height: 64px;
+}
+
+.imagem-destaque img{
+    width: 100%;
+}
+
+.card-destaque span{
+    margin-top: 10px;
+}
+
+.destaque-camisas {
+    align-self: center;
+    font-size: 25px;
+    margin: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-areas: 
+    "card card card card";
+    
+    margin: auto;
+    grid-gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 1px ridge gray;
+    background-color: #f6f0bc;
+
+    min-width: 140px;
+    max-width: 220px;
+    
+    grid-area: "card";
+    
+}
+
+.card span {
+    margin-top: 5px;
+}
+
+.card a {
+    margin-top: 10px;
+}
+
+.card .adicionar {
+    margin-bottom: 15px;
+}
+
+.card div{
+    width: 100%;
+    height: 100%;
+}
+
+.card div img{
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+
+.card .preco button{
+    border: none;
+    background-color: #f6f0bc;
+    color: darkslategray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card .adicionar button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #aae3ab;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 2cm;
+}
+
+@media (max-width: 900px){
+    .cards-container {
+        grid-template-areas: 
+        "card card card";
+    }
+
+    .card {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 700px){
+    .cards-container {
+        grid-template-areas: 
+        "card card";
+    }
+
+    .card {
+        max-width: 180px;
+    }
+
+}
+
+@media (max-width: 380px){
+    .cards-container {
+        grid-template-areas: 
+        "card";
+    }
+}
+
+.catalogo aside{
+    width: 150px;
+}
+
+.catalogo aside ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogo aside h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.catalogo aside h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.catalogo aside a{
+    font-size: 15px;
+}
+
+.catalogo aside ul li{
+    margin-bottom: 20px;
+}
+.catalogo aside ul li ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.catalogo aside ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
