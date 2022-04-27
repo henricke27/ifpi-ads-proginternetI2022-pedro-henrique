@@ -1,0 +1,184 @@
+body {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 60%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 40px;
+
+    font-family: cursive;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header div{
+    max-width: 250px;
+    padding: 20px;
+    
+}
+
+header div img{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    padding: 20px;
+    
+    flex: 75%;
+}
+
+main aside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    flex: 25%;
+    max-height: 750px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+}
+
+main aside nav{
+    margin: 5%;
+}
+
+main aside nav:first-child ul a{
+    color: rgb(226, 160, 255);
+}
+
+main h2{
+    font-size: 25px;
+}
+
+
+main a, span, p{
+    font-size: 18px;
+}
+
+
+main aside h2{
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+main aside li{
+    margin: 10px;
+}
+
+main aside a{
+    color: white;
+}
+
+@media(max-width: 1000px){
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main aside {
+        flex-direction: row;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 600px){
+    main aside {
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 710px){
+   .content:nth-child(3){
+        flex-wrap: wrap-reverse;
+   }
+   
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+    padding: 25px;
+}
+
+.text{
+    flex: 60%;
+    
+}
+
+.content h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.div-img{
+    max-width: 220px;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer div{
+    padding: 20px;
+    width: 60px;
+}
+
+footer div img{
+    width: 100%;
+}
+
+
+
