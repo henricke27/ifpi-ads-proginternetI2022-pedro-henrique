@@ -1,0 +1,4 @@
+A API fornece dados sobre uma localicade, relacionados com a divisão reginal do país
+como: mesoregião, microregião e região imediata.
+
+Base uri (para municipios): https://servicodados.ibge.gov.br/api/v1/localidades/municipios/{codigo do municipio}

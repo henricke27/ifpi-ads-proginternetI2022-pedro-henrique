@@ -1,0 +1,9 @@
+Uma API que fornece dados falsos sobre pessoas, veículos, números, cartões e etc. 
+Realiza também validações de acordo com um calcúlo especifico. Como analisar um CPF(que não
+necessariamente exista) utilizando um algorítmo conhecido como "módulo 11". 
+
+base uri, gerar cpf: https://geradorbrasileiro.com/api/faker/cpf (GET)
+base uri, validação: https://geradorbrasileiro.com/api/validate/cpf (POST)
+
+Para validar, é necessario mandar uma requisição do tipo POST, junto com um dado
+especificado no corpo da requisição, em JSON.

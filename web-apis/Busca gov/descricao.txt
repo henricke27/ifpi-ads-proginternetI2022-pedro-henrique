@@ -1,0 +1,5 @@
+A partir de uma palavra enviada como parâmetro na url, é feito uma busca em bases de dados 
+do governo, e retornado um conjunto de notícias em formato XML, contendo pelo menos uma 
+ocorrência da palavra especificada.
+
+base uri: http://noticias.gov.br/noticias-api/noticias/busca?b={palavra-chave}
