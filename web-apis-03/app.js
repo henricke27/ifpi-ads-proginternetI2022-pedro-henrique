@@ -20,8 +20,27 @@ app.listen(3000, () => console.log("run"));
 
 
 app.get("/posts", async (request, response) => { 
+    let page = request.query.page
+    let index = 0;
+    let limit = 2
+    let firstDoc; 
+
+    if(!page){
+        console.error("b.o")
+    }else{
+        index = page * limit
+        console.log(page)
+    }
+
     let docs = await db.collection('posts').orderBy('data').get();
     let posts = new Array()
+
+    //let docsLote = db.collection('posts').orderBy('data')
+
+    firstDoc = docs.docs[index].data()
+    console.log(docs.docs[index].data())
+
+    docs = await db.collection('posts').orderBy('data').startAt(firstDoc.data).limit(limit).get();
 
     docs.forEach(post => posts.push(post.data()));
 
@@ -63,6 +82,14 @@ app.get("/post", async (request, response) => {
 
     response.status(code).json(post)
 })
+
+/*app.get("/post", async (request, response) => { 
+    let id = request.query.page
+    let postFounded = db.collection('posts').doc(id)
+
+
+
+})*/
 
 app.delete("/posts/:id", async (request, response) => { 
     let id = request.params.id
