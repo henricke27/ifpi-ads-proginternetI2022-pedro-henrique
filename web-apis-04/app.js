@@ -1,6 +1,6 @@
 import { initializeApp, applicationDefault, cert } from 'firebase-admin/app';
 import { getFirestore, Timestamp, FieldValue } from 'firebase-admin/firestore';
-import serviceAccount from './shop-app-55420-firebase-adminsdk-9r7en-f67d8fb8b1.json' assert {type: "json"};
+import serviceAccount from '?' assert {type: "json"};
 import express, { json, request, response, text, urlencoded } from 'express';
 import cors from 'cors';
 
